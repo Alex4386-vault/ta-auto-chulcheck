@@ -1,0 +1,16 @@
+{
+  "name": "ta-auto-chulcheck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.22"
+  },
+  "scripts": {
+    "start": "tsc && node dist/"
+  }
+}
